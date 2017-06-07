@@ -63,7 +63,7 @@ function handleSubmit(ev) {
 function handlePromote(ev) {
     ev.preventDefault()
 
-    const background = document.querySelector(`#${e.target.id}`)
+    const background = document.querySelector(`#${ev.target.id}`)
     const parent = background.parentElement
 
     if (parent.style.backgroundColor == 'lightblue') {
